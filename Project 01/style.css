@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    list-style: none;  
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #72006D;
+}
+html body p {
+    line-height: 1.5rem;
+}
+.container {  
+    height: 100vh;  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+} 
+.login-box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 24px #22292f1a;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+
+}
+.logo{
+    margin: 1rem 0 2rem;
+}
+.welcome{
+    margin-bottom:10px;
+    margin-left: -157px;
+}
+.welcome, .instruction {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6E6B7B;
+}
+h2{
+    font-size: 1.285rem;
+    margin-bottom: 1.53rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+label {
+    font-size: 12px;
+    text-align: left;
+    color: #333;
+}
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.forgot-password {
+    text-align: right;
+    font-size: .9rem;
+     top: 63px;
+    right: 0px;
+    margin: 10px;
+    position:absolute;
+}
+.forgot-password a {
+    color: #6a1b9a;
+    text-decoration: none;
+}
+.sign-in {
+    background-color: #72006d!important;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.register {
+    margin-top: 10px;
+}
+.register a {
+    color: #6a1b9a;
+    text-decoration: none;
+}
